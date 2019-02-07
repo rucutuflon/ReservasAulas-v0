@@ -1,7 +1,17 @@
 package org.iesalandalus.programacion.reservasaulas.modelo.dao;
 
+import static org.junit.Assert.*;
+import java.time.LocalDate;
+import javax.naming.OperationNotSupportedException;
+import org.iesalandalus.programacion.reservasaulas.modelo.dominio.Aula;
+import org.iesalandalus.programacion.reservasaulas.modelo.dominio.Permanencia;
+import org.iesalandalus.programacion.reservasaulas.modelo.dominio.Profesor;
+import org.iesalandalus.programacion.reservasaulas.modelo.dominio.Reserva;
+import org.iesalandalus.programacion.reservasaulas.modelo.dominio.Tramo;
+import org.junit.*;
+
 public class ReservasTest {
-/*	
+
 	private static final String NOMBRE_PROFESOR1 = "José Ramón";
 	private static final String NOMBRE_PROFESOR2 = "Andrés";
 	private static final String CORREO = "a@b.cc";
@@ -330,5 +340,5 @@ public class ReservasTest {
 			assertEquals("No se puede consultar la disponibilidad de una permanencia nula.", e.getMessage());
 		}
 	}
-*/
+
 }
